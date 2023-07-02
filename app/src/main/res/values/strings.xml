@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">AndroidTasks</string>
+    <string name="main">Main</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="donation">Donation</string>
+    <string name="notifications">Notifications</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="notifications_screen">Notifications Screen</string>
+    <string name="photo_screen">Photo Screen</string>
+    <string name="go_back_to_profile">GoBackToProfile</string>
+    <string name="profile_screen">Profile Screen</string>
+    <string name="go_to_photo">GoToPhoto</string>
+    <string name="settings_screen">Settings Screen</string>
+    <string name="donation_screen">Donation Screen</string>
 </resources>
