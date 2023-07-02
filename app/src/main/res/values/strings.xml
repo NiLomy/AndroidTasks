@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">AndroidTasks</string>
+    <string name="app_name">SummerPractice</string>
+    <string name="click_me">Click Me</string>
+
+    <string name="hello_blank_fragment">Profile Screen</string>
+    <string name="detailed_info">Detailed Info</string>
+    <string name="id_field">ID</string>
+    <string name="name_field">Name</string>
+    <string name="description_field">Description</string>
+    <string name="planet_list">Planet list</string>
+    <string name="planet_image">Planet Image</string>
 </resources>
