@@ -4,10 +4,10 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.bumptech.glide.RequestManager
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
-import ru.kpfu.itis.lobanov.androidtasks.databinding.ItemCityBinding
+import ru.kpfu.itis.lobanov.androidtasks.databinding.ItemPlanetBinding
 
 class PlanetItem(
-    private val binding: ItemCityBinding,
+    private val binding: ItemPlanetBinding,
     private val glide: RequestManager,
     private val onItemClick: (Planet) -> Unit,
 ) : ViewHolder(binding.root) {

@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.RequestManager
-import ru.kpfu.itis.lobanov.androidtasks.databinding.ItemCityBinding
+import ru.kpfu.itis.lobanov.androidtasks.databinding.ItemPlanetBinding
 
 class PlanetAdapter(
     private var list: List<Planet>,
@@ -16,7 +16,7 @@ class PlanetAdapter(
         parent: ViewGroup,
         viewType: Int
     ): PlanetItem = PlanetItem(
-        binding = ItemCityBinding.inflate(
+        binding = ItemPlanetBinding.inflate(
             LayoutInflater.from(parent.context),
             parent,
             false,

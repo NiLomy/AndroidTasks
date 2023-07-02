@@ -21,10 +21,10 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         adapter = PlanetAdapter(
             list = PlanetRepository.list,
             glide = Glide.with(this),
-            onItemClick = { city ->
+            onItemClick = { planet ->
                 findNavController().navigate(
                     R.id.action_mainFragment_to_infoFragment,
-                    InfoFragment.createBundle(city.id)
+                    InfoFragment.createBundle(planet.id)
                 )
             }
         )
